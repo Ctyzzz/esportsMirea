@@ -1,0 +1,28 @@
+@import "src/static/index.scss";
+
+.contacts {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+
+  color: $links;
+  font-weight: 500;
+}
+
+.rows {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.row {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.row-text {
+  font-size: 12px;
+  text-decoration: none;
+  color: $links;
+}

@@ -1,0 +1,45 @@
+@import "../../../static/index.scss";
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700&display=swap');
+
+.play {
+    font-family: 'Montserrat', sans-serif;
+    width: 93%;
+    height: 430px;
+    flex-shrink: 0;
+    background-color: #181818;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    align-items: center;
+
+    &-text {
+        padding-left: 80px;
+        &__us {
+            color: #FFF;
+    
+            font-family: Montserrat;
+            font-size: 48px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: 114.6%;
+            &__pleasure {
+                color: #F90;
+                font-family: Montserrat;
+                font-size: 48px;
+                font-style: normal;
+                font-weight: 700;
+                line-height: 114.6%;
+            }
+        }
+        &__service {
+            color: #FFF;
+    
+            font-family: Montserrat;
+            font-size: 20px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: 114%;
+            padding-top: 30px;
+        }
+    }
+}

@@ -1,0 +1,72 @@
+.profilePhoto {
+  border-radius: 100%;
+  width: 110px;
+  height: 110px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: 0.3s all;
+
+  img {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    transition: 0.3s all;
+
+  }
+
+  svg {
+    position: absolute;
+    width: 35px;
+    z-index: 3;
+  }
+
+  .changeTitle {
+    border-radius: 100%;
+    opacity: 0;
+    transition: 0.3s all;
+    position: absolute;
+    z-index: 2;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: flex-end;
+    color: #FFF;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 114.6%;
+    justify-content: center;
+    padding-bottom: 10px;
+  }
+
+  .onlineStatus{
+    width: 20px;
+    height: 20px;
+    background-color: #FF9900;
+    border-radius: 100%;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    z-index: 1;
+  }
+}
+
+.profilePhoto:hover {
+  transition: 0.3s all;
+
+  img {
+    transition: 0.3s all;
+
+  }
+
+  .changeTitle {
+    opacity: 1;
+    transition: 0.3s all;
+    box-shadow: 0 -190px 0 0px rgba(0, 0, 0, 0.48) inset;
+
+  }
+}

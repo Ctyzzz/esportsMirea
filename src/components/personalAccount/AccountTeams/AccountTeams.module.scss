@@ -1,0 +1,244 @@
+.blocks_container {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  padding: 10px;
+  .block {
+    flex: 1;
+    border: 0.5px solid #FF9900;
+    border-radius: 20px;
+    padding: 10px;
+    margin: 10px 50px;
+    text-align: center;
+    background: repeating-linear-gradient(
+                    135deg,
+                    transparent,
+                    transparent 5px,
+                    #0a0a0a 5px,
+                    #333 6px
+    ),
+    rgba(213, 157, 72, 0.31);
+    .block p {
+      margin-top: 0;
+      font-size: 1em;
+      color: #ffffff;
+    }
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+.team-info{
+    &__header{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 25px 100px;
+    }
+    &__table{
+        margin: 0 100px;   
+        .team-list{
+            display: grid;
+            grid-template-columns: 50% 25% 25%;
+            gap: 25px;
+            background-color: #181818;
+            border-radius: 10px;
+            padding: 22px 100px;
+            &__team, &__role{
+                font-size: 16px;
+                font-weight: 400;
+                font-family: 'Montserrat', sans-serif;
+            }
+        }
+        .team-element{
+            display: grid;
+            grid-template-columns: 50% 25% 25%;
+            gap: 25px;
+            padding: 35px 100px; 
+            font-size: 16px;
+            font-weight: 400;
+            &__name{
+                font-family: 'Syncopate Cyr';
+            }
+            &__role{
+                font-family: 'Montserrat';
+            }
+            &__icon{
+            }
+        }
+    }
+    .teams-cards{
+      .teams-card{
+        display: grid;
+        grid-template-columns: 50% 25% 25%;
+        gap: 25px;
+        margin: 20px 27px;
+        padding: 40px 0px 20px 30px;
+        background-color: #191919;
+        border-radius: 20px;
+        align-items: center;
+        align-self: center;
+        &__name{
+          .teams-card__date{
+              font-family: 'Montserrat', sans-serif;
+              font-weight: 600;
+              font-size: 12px;
+              color: #FF9900;
+          }
+          .teams-card__title{
+              font-family: 'Montserrat', sans-serif;
+              font-weight: 700;
+              font-size: 20px;
+              color: white;
+          }
+        }
+        &__fight{
+            font-family: 'Montserrat', sans-serif;
+            font-weight: 600;
+            font-size: 16px;
+            color: #FF9900;
+        }
+        &__count{ 
+            font-family: 'Montserrat', sans-serif;
+            font-weight: 600;
+            font-size: 16px;
+            color: #FF9900;
+        }
+      }
+    }
+    .team-settings-button button{
+
+        display: block;
+        margin: 0 auto;
+        width: 230px;
+        height: 55px;
+        margin-top: 40px;
+        border: 1px solid #FF9900;
+        border-radius: 20px;
+        background-color: #0C0C0CCC;
+        color: #FF9900;
+        font-size: 16px;
+        font-family: 'Syncopate Cyr', sans-serif;
+        font-weight: 400;
+        }
+    }
+    
+
+
+
+
+
+
+
+
+
+
+
+.team-settings{
+  width: 80%;
+  background: #0C0C0CCC;
+  margin: 0 auto;
+  font-family: Montserrat;
+    .settings-info {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      border-radius: 20px;
+      padding: 40px;
+      background: #191919;
+      margin: 40px auto;
+      &__header {
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        margin-bottom: 20px;
+        h5 {
+          color: #F90;
+          font-family: Syncopate Cyr;
+          font-size: 32px;
+          font-weight: 400;
+          text-transform: uppercase;
+          margin-right: 20px;
+        }
+      }
+      &__input{
+        padding-bottom: 20px;
+        color: rgba(255, 255, 255, 0.60);
+        p{
+          color: #FFF;
+          padding-bottom: 20px;
+        }
+        input, textarea{
+          color: #FFF;
+          padding: 30px;
+          width: 100%;
+          background: transparent;
+          border-radius: 10px;
+          border: 2px solid #747474;
+          box-sizing: border-box;
+          font-family: 'Montserrat';
+        }
+        input::placeholder, textarea::placeholder {
+          color: rgba(255, 255, 255, 0.60);
+          font-size: 16px;
+          font-weight: 500;
+        } 
+      }
+    }
+    &__add {
+      display: flex;
+      justify-content: center;
+      button {
+        background-color: #FF9900;
+        border-radius: 50%;
+        padding: 12px;
+        margin: 50px 0;
+        border: none;
+        position: relative;
+
+      }
+  }
+}
+.team-settings-button{
+  padding: 40px 0;
+}
+*/

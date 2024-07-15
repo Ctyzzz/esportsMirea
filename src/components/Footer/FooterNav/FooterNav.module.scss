@@ -1,0 +1,36 @@
+@import "src/static/index.scss";
+
+.footer-nav {
+  color: $links;
+  text-transform: uppercase;
+  font-weight: 700;
+  padding: 0 100px;
+  flex-grow: 1;
+
+  ul {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 20px 60px;
+
+    li {
+      text-align: center;
+      cursor: pointer;
+
+      &:hover {
+        color: white;
+      }
+    }
+
+    a {
+      text-decoration: none;
+      color: $links;
+    }
+  }
+}
+
+@media (max-width: 992px) {
+  .footer-nav {
+    padding: 0;
+  }
+}

@@ -1,0 +1,156 @@
+.registration-full{
+  width: 35%;
+  margin: 0 auto;
+  padding: 57px 0;
+  &-form{
+    width: 80%;
+    background-color: #0A0A0A;
+    text-align: center;
+    border-radius: 30px;
+    padding: 40px;
+    margin-bottom: 20px;
+
+    &__pic{
+      margin-bottom: 25px;
+    }
+
+    &__title{
+      color: #F90;
+      text-align: center;
+      font-family: 'Syncopate Cyr';
+      font-size: 32px;
+      text-transform: uppercase;
+      margin-bottom: 20px;
+    }
+    &__button{
+      margin-top: 30px;
+      button{
+        width: 100%;
+        font-size: 24px;
+        height: 72px;
+        border-radius: 10px;
+      }
+    }
+  }
+}
+.form {
+
+  .logo{
+    height: 68px;
+    object-fit: contain;
+  }
+
+  .mainFormTitle{
+    color: #F90;
+    text-align: center;
+    font-family: Syncopate Cyr;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 114.6%;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+  }
+
+  .formSubTitle{
+    margin-top: 10px;
+    color: #FFF;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 114.6%;
+  }
+
+  button {
+    border-radius: 10px;
+    background: #F90;
+    box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0.10), 0px 3px 7px 0px rgba(0, 0, 0, 0.10), 0px 12px 12px 0px rgba(0, 0, 0, 0.09), 0px 28px 17px 0px rgba(0, 0, 0, 0.05), 0px 49px 20px 0px rgba(0, 0, 0, 0.01), 0px 77px 22px 0px rgba(0, 0, 0, 0.00);
+    width: 100%;
+    margin-top: 33px;
+    height: 72px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #181818;
+    text-align: center;
+    font-family: Syncopate Cyr;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 114.6%;
+    text-transform: uppercase;
+    cursor: pointer;
+    outline: none;
+    border: none;
+  }
+
+  .subTitle {
+    text-align: left;
+    margin-top: 10px;
+  }
+}
+
+.input {
+
+  .miniInputsWrap{
+    display: flex;
+    gap: 10px;
+  }
+
+  .title{
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    text-align: left;
+  }
+  input {
+    flex: 1;
+    padding: 25px 35px;
+    border-radius: 10px;
+    border: 2px solid #747474;
+    outline: none;
+    color: rgba(255, 255, 255, 1);
+    font-family: Montserrat;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    background-color: transparent;
+    width: 1px;
+  }
+  input::placeholder {
+    color: rgba(255, 255, 255, 0.60);
+    font-family: Montserrat;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+  }
+}
+
+
+.profilePhoto{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.checkbox{
+  display: flex;
+  gap: 12px;
+  align-items: center;
+  margin-top: 10px;
+
+  input{
+    border-radius: 5px;
+    border: 2px solid #747474;
+    background-color: transparent;
+  }
+}

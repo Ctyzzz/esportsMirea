@@ -1,0 +1,19 @@
+.menu-item{
+    button{
+        font-size: 20px;
+        font-weight: 600;
+        font-family: 'Montserrat', sans-serif;
+        color: white;
+        background: none;
+        border: 0;
+        padding: 15px;
+        cursor: pointer; 
+    }
+}
+.menu-item_active{
+    button{
+        color: #FF9900;
+        outline: 1px solid #FF9900;
+        border-radius: 5px;
+    }
+}

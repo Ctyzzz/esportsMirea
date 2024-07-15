@@ -1,0 +1,166 @@
+@import "../../static/index.scss";
+
+.tournamentsWrapper {
+	max-width: 1300px;
+	flex-shrink: 0;
+	margin: 0 auto;
+	background: rgba(12, 12, 12, 0.8);
+	&__content {
+		display: grid;
+		column-gap: auto;
+		grid-template-columns: repeat(4, 1fr);
+		padding: 40px;
+		border-bottom: 1px solid #181818;
+		&:last-child {
+			border-bottom: none;
+		}
+		.content__div {
+			width: 280px;
+		}
+	}
+	.tournamentCard {
+		width: 280px;
+		height: 420px;
+		background-size: cover;
+		font-family: "Syncopate Cyr";
+		border-radius: 5px;
+		&__content {
+			background: #181818;
+			width: 160px;
+			margin: 0 auto;
+			padding: 5px 0;
+			text-align: center;
+			border-radius: 0px 0px 5px 5px;
+			.content {
+				&__dateTitle {
+					font-size: 8px;
+					color: $orange;
+					font-family: "Syncopate Cyr";
+					text-transform: uppercase;
+					padding-top: 1px;
+				}
+				&__date {
+					margin-top: 3px;
+					font-size: 12px;
+					color: white;
+					font-family: "Syncopate Cyr";
+					text-transform: uppercase;
+					padding-top: 1px;
+				}
+			}
+		}
+		&__footer {
+			height: 80%;
+			display: flex;
+			flex-direction: column;
+			justify-content: flex-end;
+			align-items: flex-start;
+			margin-left: 15px;
+			bottom: auto;
+			margin-top: 10px;
+			.text {
+				color: #fff;
+				width: 70%;
+				font-size: 15px;
+				line-height: 16px;
+				text-align: left;
+				text-transform: uppercase;
+				font-weight: 400;
+				margin-bottom: 15px;
+			}
+			.button {
+				display: flex;
+			}
+			.logo {
+				padding-left: 40px;
+			}
+		}
+		&__pastFooter {
+			height: 80%;
+			display: flex;
+			flex-direction: column;
+			justify-content: flex-end;
+			align-items: flex-start;
+			margin-left: 15px;
+			bottom: auto;
+			padding-top: 50px;
+			.text {
+				color: #fff;
+				width: 70%;
+				font-size: 15px;
+				line-height: 16px;
+				text-align: left;
+				text-transform: uppercase;
+				font-weight: 400;
+				margin-bottom: 15px;
+			}
+			.button {
+				display: flex;
+			}
+			.logo {
+				padding-left: 40px;
+			}
+		}
+	}
+	&__title {
+		color: #f90;
+		font-family: "Syncopate Cyr";
+		font-size: 36px;
+		font-style: normal;
+		font-weight: 400;
+		line-height: 115%;
+		text-transform: uppercase;
+		padding-top: 38px;
+		margin-left: 48px;
+	}
+	.line {
+		padding-left: 50px;
+		padding-top: 40px;
+	}
+}
+
+@media (max-width: 1250px) {
+	.tournamentsWrapper {
+		&__content {
+			grid-template-columns: repeat(3, 1fr);
+			row-gap: 30px;
+		}
+	}
+}
+
+@media (max-width: 992px) {
+	.tournamentsWrapper {
+		&__content {
+			grid-template-columns: repeat(2, 1fr);
+		}
+	}
+}
+
+@media (max-width: 768px) {
+	.tournamentsWrapper {
+		&__content {
+			display: block;
+			.content__div {
+				width: 100%;
+				margin-bottom: 20px;
+			}
+		}
+		.tournamentCard {
+			width: 100%;
+		}
+		&__title {
+			margin-left: 0;
+			text-align: center;
+			padding-top: 30px;
+			font-size: 32px;
+		}
+	}
+}
+
+@media (max-width: 550px) {
+	.tournamentsWrapper {
+		&__title {
+			font-size: 24px;
+		}
+	}
+}

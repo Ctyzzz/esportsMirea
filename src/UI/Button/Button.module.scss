@@ -1,0 +1,21 @@
+@use "../../static" as *;
+
+.button {
+  background-color: $orange;
+  font-family: "Syncopate Cyr";
+  border: 0;
+  border-radius: 5px;
+  font-size: 12px;
+  text-align: center;
+  padding: 10px 25px;
+  color: #181818;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+
+@media (max-width: 550px) {
+	.button {
+    padding: 5px 15px;
+	}
+}

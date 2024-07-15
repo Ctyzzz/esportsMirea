@@ -1,0 +1,196 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600&family=Syncopate&display=swap');
+
+.recover {
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Syncopate', sans-serif;
+    
+
+    .recover-pass {
+        flex-shrink: 0;
+        border-radius: 30px;
+        background: #0A0A0A;
+        margin: 0 auto;
+        width: 28%;
+        height: 750px;
+
+        &__title {
+          padding-top: 10%;
+          color: #F90;
+          text-align: center;
+          font-family: Syncopate Cyr;
+          font-size: 32px;
+          font-style: normal;
+          font-weight: 400;
+          line-height: 114.6%; 
+          text-transform: uppercase;
+          width: 100%;
+        }
+
+        &__subtitle {
+          margin: 0 auto;
+          margin-top: 10%;
+          color: #FFF;
+          text-align: center;
+          font-family: Montserrat;
+          font-size: 16px;
+          font-style: normal;
+          font-weight: 500;
+          line-height: normal;
+          width: 90%;
+        }
+
+        &__buttons {
+            display: grid;
+            grid-template-columns: repeat(2, 45%);
+            grid-template-rows: 60px;
+            width: 100%;
+            gap: 10%;
+            margin-top: 13%;
+            &__mail {
+                border-radius: 5px;
+                border: 1px solid rgba(255, 255, 255, 0.60);
+                background-color: #0A0A0A;
+                color: rgba(255, 255, 255, 0.60);
+    
+                text-align: center;
+                font-family: Montserrat;
+                font-size: 16px;
+                font-style: normal;
+                font-weight: 600;
+                line-height: normal;
+                cursor: pointer;
+    
+            }
+            &__mailactive {
+                border: 1px solid #F90;
+                color: #F90;
+                transition: 0s;
+                border-radius: 5px;
+                background-color: #0A0A0A;
+    
+                text-align: center;
+                font-family: Montserrat;
+                font-size: 16px;
+                font-style: normal;
+                font-weight: 600;
+                line-height: normal;
+                cursor: pointer;
+            }
+            &__tel {
+                border-radius: 5px;
+                border: 1px solid rgba(255, 255, 255, 0.60);
+                background-color: #0A0A0A;
+                color: rgba(255, 255, 255, 0.60);
+    
+                text-align: center;
+                font-family: Montserrat;
+                font-size: 16px;
+                font-style: normal;
+                font-weight: 600;
+                line-height: normal;
+                cursor: pointer;
+            }
+            &__telactive {
+                border: 1px solid #F90;
+                color: #F90;
+                border-radius: 5px;
+                background-color: #0A0A0A;
+    
+                text-align: center;
+                font-family: Montserrat;
+                font-size: 16px;
+                font-style: normal;
+                font-weight: 600;
+                line-height: normal;
+                cursor: pointer;
+            }
+        }
+
+        &__form {
+            margin: 0 auto;
+            width: 90%;
+            text-align: center;
+            margin-top: 2%;
+
+            button {
+                width: 100%;
+                margin-top: 10%;
+            }
+
+            &__cancel {
+                margin-top: 10%;
+                .back-main {
+                    color: rgba(255, 255, 255, 0.60);
+                    font-family: Montserrat;
+                    font-size: 20px;
+                    font-style: normal;
+                    font-weight: 500;
+                    line-height: normal;
+                    text-align: center;
+                    cursor: pointer;
+                }
+            }
+        }
+
+        &__code {
+            margin-top: 18%;
+            width: 90%;
+            margin: 0 auto;
+            button {
+                width: 86%;
+                margin-left: 7%;
+                margin-top: 20%;
+            }
+
+            &__more {
+              margin-right: 55%;
+                color: rgba(255, 255, 255, 0.60);
+
+                font-family: Montserrat;
+                font-size: 16px;
+                font-style: normal;
+                font-weight: 500;
+                line-height: normal;
+                cursor: pointer;
+            }
+            &__cancel {
+                margin-top: 10%;
+                .back-main {
+                    color: rgba(255, 255, 255, 0.60);
+                    font-family: Montserrat;
+                    font-size: 20px;
+                    font-style: normal;
+                    font-weight: 500;
+                    line-height: normal;
+                    text-align: center;
+                    cursor: pointer;
+                }
+            }
+        }
+
+        &__new {
+            margin: 0 auto;
+            width: 90%;
+            text-align: center;
+            margin-top: 10%;
+
+            button {
+                width: 86%;
+                margin-top: 20%;
+            }
+            &__cancel {
+                margin-top: 10%;
+                .back-main {
+                    color: rgba(255, 255, 255, 0.60);
+                    font-family: Montserrat;
+                    font-size: 20px;
+                    font-style: normal;
+                    font-weight: 500;
+                    line-height: normal;
+                    text-align: center;
+                    cursor: pointer;
+                }
+            }
+        }
+    }
+}

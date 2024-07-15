@@ -1,0 +1,63 @@
+.settings__integrations {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	margin-top: 40px;
+	.integrations-cards {
+		&__card {
+			align-items: center;
+			border: 2px solid hsla(0, 0%, 100%, 0.3);
+			border-radius: 10px;
+			display: flex;
+			justify-content: space-between;
+			margin-top: 25px;
+			padding: 20px 25px 20px 30px;
+			.integrations-cards__info {
+				display: flex;
+				gap: 25px;
+				.card-info {
+					&__title {
+						font-family: "Syncopate Cyr";
+						font-size: 15px;
+					}
+					&__nickname {
+						font-family: "Montserrat";
+						font-size: 12px;
+						margin-top: 10px;
+						&_inactive {
+							color: #ff9900;
+							text-decoration: underline;
+							cursor: pointer;
+						}
+					}
+				}
+			}
+			button {
+				padding: 0;
+				border: 0;
+				font-size: 40px;
+				font-family: "Montserrat";
+				font-weight: 400;
+				background-color: inherit;
+				color: #787878;
+				cursor: pointer;
+				.cross {
+					display: block;
+					transform: rotate(45deg);
+				}
+			}
+		}
+	}
+	.integration-checkbox {
+		margin-bottom: 30px;
+	}
+	.integrations-empty {
+		font-family: "Syncopate Cyr";
+		color: #fff;
+		font-size: 25px;
+		text-align: center;
+		text-transform: uppercase;
+		margin-bottom: 30px;
+	}
+}

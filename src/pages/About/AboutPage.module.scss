@@ -1,0 +1,83 @@
+@import "../../static/index.scss";
+
+.wrapper {
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	// background-image: url(../../assets/background.png);
+	.about {
+		width: 100%;
+		max-width: 1300px;
+		display: flex;
+		flex-direction: column;
+		&__banner {
+			width: 100%;
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+			justify-content: flex-end;
+			height: 360px;
+			background-position: center;
+			background-image: url(../../assets/about/aboutBanner.svg);
+		}
+		&__tabs {
+			width: 100vw;
+			max-width: 800px;
+			display: flex;
+			justify-content: space-between;
+			margin-bottom: 30px;
+			button {
+				font-family: "Syncopate Cyr";
+				font-size: 16px;
+				background-color: rgba(0, 0, 0, 0);
+				border: none;
+				color: white;
+				opacity: 0.8;
+				cursor: pointer;
+				.underline {
+					height: 2px;
+					width: 100%;
+					background-color: white;
+					opacity: 0.8;
+					margin-top: 3px;
+					border-radius: 10px;
+				}
+				.not-underline {
+					height: 5px;
+				}
+			}
+		}
+	}
+}
+
+@media (max-width: 992px) {
+	.wrapper {
+		.about {
+			&__banner {
+				height: 300px;
+			}
+		}
+	}
+}
+
+@media (max-width: 768px) {
+	.wrapper {
+		.about {
+			&__banner {
+				height: 240px;
+			}
+		}
+	}
+}
+
+@media (max-width: 500px) {
+	.wrapper {
+		.about {
+			&__banner {
+				display: none;
+			}
+		}
+	}
+}

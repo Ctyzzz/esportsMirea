@@ -1,0 +1,16 @@
+.account {
+  width: 100%;
+  height: 100%;
+  margin: 0 auto;
+  padding-top: 35px;
+  background-color: #0c0c0c;
+  color: white;
+  min-height: calc(100vh - 72px - 214px);
+  max-width: 1300px;
+}
+
+@media (max-width: 500px) {
+  .account {
+    padding-top: 20px;
+  }
+}

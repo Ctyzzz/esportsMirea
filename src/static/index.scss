@@ -1,0 +1,31 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap");
+@import "./colors";
+
+$container-width: 1300px;
+$content-width: 1200px;
+
+$header-height: 72px;
+$footer-height: 250px;
+
+@font-face {
+  src: url("./font/Syncopate Bold Cyr.otf");
+  font-family: "Syncopate Cyr";
+}
+
+#root {
+  padding-top: 72px;
+  min-height: 100dvh;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+}
+
+main {
+  position: relative;
+  flex: 1;
+}
+
+body {
+  background-color: #000;
+  overflow: auto;
+}

@@ -1,0 +1,17 @@
+.friend-card-info{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    .card-nickname{
+        font-size: 14px;
+        &__up{
+            font-family: 'Syncopate Cyr';
+            text-transform: uppercase;
+        }
+        &__down{
+            font-family: 'Montserrat' !important;
+            padding-top: 3px;
+        }
+
+    }
+}

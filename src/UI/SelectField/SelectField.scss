@@ -1,0 +1,66 @@
+.css-1vpm9a-control {
+  border: 2px solid rgba(255, 153, 0, 1) !important;
+  box-shadow: none !important;
+  border-radius: 10px !important;
+  width: 100% !important;
+  min-height: 0 !important;
+  padding: 15px 27px !important;
+}
+.css-ct2t6i-control {
+  border-radius: 10px !important;
+  border: 2px solid rgba(116, 116, 116, 1) !important;
+  width: 100% !important;
+  min-height: 0 !important;
+  padding: 15px 27px !important;
+}
+.css-1nmdiq5-menu {
+  background-color: rgb(20, 19, 19) !important;
+  padding: 10px 0 !important;
+  border-radius: 10px !important;
+  width: 100% !important;
+  font-family: "Montserrat";
+  color: white;
+  font-weight: 500 !important;
+}
+.css-1dimb5e-singleValue {
+  font-family: "Montserrat";
+  font-weight: 500;
+  color: #fff !important;
+  padding-left: 20px !important;
+  font-size: 16px !important;
+  padding: 0 !important;
+}
+.css-art2ul-ValueContainer2 {
+  padding: 0 !important;
+}
+.css-1xc3v61-indicatorContainer {
+  display: none !important;
+}
+.css-15lsz6c-indicatorContainer {
+  display: none !important;
+}
+.css-4xgw5l-IndicatorsContainer2 {
+  width: 22px;
+  margin-right: -10px;
+  background-image: url("../../assets/booking/arrow.svg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.css-1u9des2-indicatorSeparator {
+  display: none !important;
+}
+.css-w9q2zk-Input2 {
+  padding: 0 !important;
+}
+@media (max-width: 768px) {
+  .css-ct2t6i-control {
+    background-color: rgba(0, 0, 0, 0) !important;
+  }
+  .css-1vpm9a-control {
+    background-color: rgba(0, 0, 0, 0) !important;
+  }
+  .css-1dimb5e-singleValue {
+    font-size: 13px !important;
+  }
+}

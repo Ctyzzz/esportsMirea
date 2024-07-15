@@ -1,0 +1,53 @@
+.in_progress {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  font-size: 88px;
+  font-weight: 800;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: transparent;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: white;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Syncopate Cyr";
+  transform: translate(-50%, -50%);
+}
+
+@media all and (max-width: 1000px) {
+  .in_progress{font-size:35px;}
+}
+
+
+@media all and (max-width: 500px) {
+  .in_progress{font-size:25px;}
+}
+
+@media all and (max-width: 300px) {
+  .in_progress{font-size:20px;}
+}
+
+.in_progress::before,
+.in_progress::after {
+  content: attr(data-text);
+  position: absolute;
+  transition: 0.3s ease-out;
+}
+
+.in_progress:hover::before {
+  color: #ff9900;
+  transform: translate(1.1%, -11%);
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: black;
+}
+
+.in_progress:hover::after {
+  color: white;
+  transform: translate(2.6%, -25%);
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: black;
+}

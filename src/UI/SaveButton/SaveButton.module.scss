@@ -1,0 +1,22 @@
+@import "../../static/index.scss";
+
+.save-button {
+	background-color: $orange;
+	font-family: "Syncopate Cyr";
+	color: #181818;
+	text-align: center;
+	text-transform: uppercase;
+	cursor: pointer;
+	border: 0;
+	border-radius: 10px;
+	display: block;
+	margin: 0 auto;
+	font-size: 24px;
+	padding: 22px 130px;
+}
+
+@media (max-width: 550px) {
+	.save-button {
+		padding: 22px 50px;
+	}
+}

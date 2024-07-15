@@ -1,0 +1,44 @@
+.selectors {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  .label {
+    font-weight: 700;
+    font-size: 18px;
+    color: white;
+    font-family: "Montserrat";
+    margin-bottom: 15px;
+  }
+  .date,
+  .time,
+  .duration {
+    flex-grow: 1;
+    margin-bottom: 30px;
+  }
+  .time {
+    margin: 0 25px;
+    .time-selectors {
+      display: flex;
+      justify-content: space-between;
+      .hour,
+      .minute {
+        flex-grow: 1;
+        max-width: 48%;
+      }
+    }
+  }
+}
+@media (max-width: 1070px) {
+  .selectors {
+    display: block;
+    .label {
+      font-weight: 700;
+      font-size: 16px;
+      margin-bottom: 10px;
+    }
+    .time {
+      margin: 0;
+      margin-bottom: 30px;
+    }
+  }
+}

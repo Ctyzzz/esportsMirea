@@ -1,0 +1,10 @@
+@import "../../static/index.scss";
+
+.servicesContent {
+    width: $content-width;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}

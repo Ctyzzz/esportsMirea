@@ -1,0 +1,91 @@
+.booking {
+	width: 100%;
+	.no-bookings {
+		font-family: "Montserrat";
+		font-size: 25px;
+		color: #787878;
+		margin-top: -20px;
+		margin-bottom: 25px;
+	}
+	.booking-btn {
+		margin-top: -10px;
+		margin-bottom: 40px;
+	}
+	.booking-header {
+		display: flex;
+		column-gap: 20px;
+		row-gap: 10px;
+		flex-wrap: wrap;
+		button {
+			height: 40px;
+		}
+	}
+	&__cards {
+		margin-bottom: 40px;
+		.bookingcard {
+			height: 60px;
+			background: #18181880;
+			font-family: "Montserrat";
+			font-weight: 400;
+			border-radius: 10px;
+			display: flex;
+			justify-content: space-between;
+			align-items: center;
+			padding: 0 5px 0 35px;
+			margin-top: 15px;
+			&__date {
+				color: #ff9900;
+				flex: 0 1 20%;
+			}
+			&__type {
+				display: flex;
+				align-items: center;
+				flex: 0 1 27%;
+				gap: 0.8em;
+				p {
+					padding-top: 2px;
+				}
+			}
+			&__number {
+				flex: 0 1 17%;
+			}
+			&__time {
+				flex: 0 1 16%;
+			}
+			&__button {
+				flex: 0 1 20%;
+				button {
+					padding: 15px 45px;
+					margin-left: 30px;
+				}
+			}
+		}
+	}
+}
+
+@media (max-width: 767px) {
+	.booking {
+		&__cards {
+			.bookingcard {
+				&__time {
+					display: none;
+				}
+				&__button {
+					button {
+						padding: 15px;
+					}
+				}
+			}
+		}
+	}
+}
+
+@media (max-width: 400px) {
+	.booking {
+		&__cards {
+			.bookingcard {
+				padding: 10px;
+			}
+		}
+	}
+}

@@ -1,0 +1,112 @@
+@import '../../../static/index.scss';
+
+.contacts{
+    display: flex;
+    justify-content:  center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    background-color: rgba(12, 12, 12, 0.8);
+    font-family: 'Montserrat', sans-serif;
+    span{
+        color: $orange;
+    }
+    section{
+        margin: 50px 0;
+        display: flex;
+        justify-content: space-between;
+        width: calc(100% - 100px);
+    }
+    .s1{
+        .images{
+            img{
+                position: relative;
+            }
+            .im1{
+                margin-top: 57px;
+                left:0;
+            }
+            .im2{
+                margin-top: -195px;
+                margin-left: 300px;
+                z-index: 1;
+            }
+            .im3{
+                margin-top: -178px;
+                margin-left: 120px;
+            }
+        }
+        .main{
+            color: white;
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            h1{
+                font-size: 40px;
+                font-weight: bold;
+                margin-bottom: 30px;
+            }
+            p{
+                font-size: 20px;
+                font-weight: 400;
+                line-height: 115%;
+                margin-bottom: 40px;
+            }
+            label{
+                font-size: 18;
+                font-weight: 600;
+            }
+            .form-top{
+                display: flex;
+                .input-block:first-child{
+                    margin-right: 20px;
+                }
+                .input-block{
+                    width: 50%;
+                    input{
+                        font-size: 12px;
+                        font-family: 'Montserrat', sans-serif;
+                        border: #747474 solid 2px;
+                        border-radius: 5px;
+                        background-color: rgba(0,0,0,0);
+                        color: rgba(255, 255, 255, 0.6);
+                        margin-top: 10px;
+                        height: 50px;
+                        width: calc(100% - 12px);
+                        padding-left: 12px;
+                    }
+                }
+            }
+            .form-bottom{
+                margin: 35px 0;
+                display: flex;
+                flex-direction: column;
+                textarea{
+                    font-size: 12px;
+                    font-family: 'Montserrat', sans-serif;
+                    height: 150px;
+                    border: #747474 solid 2px;
+                    border-radius: 5px;
+                    background-color: rgba(0,0,0,0);
+                    color: rgba(255, 255, 255, 0.6);
+                    margin-top: 10px;
+                    padding-left: 12px;
+                    padding-top: 17px;
+                }
+            }
+        }
+    }
+    .line{
+        background-color: #181818;
+        height: 2px;
+        width: 100%;
+    }
+    .s2{
+        align-items: center;
+        h1{
+            font-size: 40px;
+            font-weight: bold;
+            color: white
+        }
+    }
+}

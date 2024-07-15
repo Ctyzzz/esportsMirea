@@ -1,0 +1,127 @@
+.registration-full{
+    width: 35%;
+    margin: 0 auto;
+    padding: 57px 0;
+    &-form{
+      width: 80%;
+      background-color: #0A0A0A;
+      text-align: center;
+      border-radius: 30px;
+      padding: 40px;
+      margin-bottom: 20px;
+  
+      &__pic{
+        margin-bottom: 25px;
+      }
+  
+      &__title{
+        color: #F90;
+        text-align: center;
+        font-family: 'Syncopate Cyr';
+        font-size: 32px;
+        text-transform: uppercase;
+        margin-bottom: 20px;
+      }
+
+      &__input{
+        color: #FFF;
+        font-family: "Montserrat";
+        font-size: 20px;
+        font-weight: 600;
+        text-align: left;
+
+        padding-top: 20px;
+      }
+
+      &__birthDay{
+        text-align: left;
+        font-family: "Montserrat";
+        display: grid;
+        grid-auto-flow: column;
+        width: 100%;
+        gap: 15px;
+
+
+        input{
+            width: 70%;
+            padding: 25px 35px;
+            margin-top: 20px;
+            border-radius: 10px;
+            font-family: inherit;
+            box-sizing: border-box;
+            color:#FFF;
+            border: 2px solid #747474;
+            outline: none;
+            font-size: 16px;
+            width: 100%;
+            background-color: transparent;
+        }
+
+      }
+
+      &__checkbox {
+        color: #747474;
+        font-family: "Montserrat";
+        font-size: 14px;
+        font-weight: 500;
+        text-align: left;
+
+        .subTitle{
+            margin-top: 70px;
+
+            .custom-checkbox {
+                z-index: -1;
+                opacity: 0;
+            }
+
+            .custom-checkbox+label {
+                display: inline-flex;
+                align-items: center;
+                user-select: none;
+            }
+            .custom-checkbox+label::before {
+                content: '';
+                display: inline-block;
+                width: 20px;
+                height: 20px;
+                flex-shrink: 0;
+                flex-grow: 0;
+                border: 2px solid #747474;
+                border-radius: 5px;
+                margin-right: 12px;
+                background-repeat: no-repeat;
+                background-position: center center;
+                background-size: 50% 50%;
+                cursor: pointer;
+            }
+
+            .custom-checkbox:checked+label::before {
+                border-color: #0b76ef;
+                background-color: #0b76ef;
+                background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 8 8'%3e%3cpath fill='%23fff' d='M6.564.75l-3.59 3.612-1.538-1.55L0 4.26 2.974 7.25 8 2.193z'/%3e%3c/svg%3e");
+            }
+
+            // input{
+            //     width: 20px;
+            //     height: 20px;
+            //     flex-shrink: 0;
+            //     cursor: pointer;
+            // }
+        }
+      }
+
+      &__button{
+        margin-top: 30px;
+        button{
+          width: 100%;
+          font-size: 24px;
+          height: 72px;
+          border-radius: 10px;
+        }
+      }
+    }
+  }
+
+  
+  
+ 

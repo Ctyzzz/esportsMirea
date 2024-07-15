@@ -1,0 +1,30 @@
+.settings__header {
+	position: relative;
+	z-index: 5;
+	.settings__title {
+		font-family: "Syncopate Cyr";
+		color: #ff9900;
+		font-size: 36px;
+		text-align: center;
+		text-transform: uppercase;
+		margin-bottom: 45px;
+	}
+	.settings__navbar {
+		color: lightgray;
+		font-family: "Syncopate Cyr";
+		text-transform: uppercase;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		gap: 3em;
+		margin-bottom: 35px;
+	}
+}
+
+@media (max-width: 550px) {
+	.settings__header {
+		.settings__navbar {
+			gap: 1em;
+		}
+	}
+}

@@ -1,0 +1,24 @@
+@import "src/static/index.scss";
+
+.footer-icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  width: 20px;
+  height: 20px;
+  border-radius: 2px;
+  background: #979797;
+
+  font-size: 14px;
+  color: #181818;
+  cursor: pointer;
+}
+
+.footer-icon[data-hover=true] {
+  transition: all 0.25s ease-in-out;
+
+  &:hover {
+    background: $orange;
+  }
+}

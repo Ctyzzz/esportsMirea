@@ -1,0 +1,35 @@
+.die {
+	padding: 13px 25px;
+	display: flex;
+	background-color: rgba(217, 217, 217, 0.2);
+	border-radius: 10px;
+	align-items: center;
+	width: fit-content;
+	.img {
+		min-width: 44px;
+		height: 44px;
+		border-radius: 10px;
+		background-color: #ff9900;
+		margin-right: 23px;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+	p {
+		font-size: 15px;
+		font-weight: 400;
+		color: white;
+		margin: 0;
+		line-height: 116%;
+		white-space: "pre-line";
+	}
+}
+
+@media (max-width: 768px) {
+	.die {
+		padding: 13px;
+		.img {
+			margin-right: 15px;
+		}
+	}
+}
